@@ -1,0 +1,21 @@
+{
+  "name": "create-public-repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "create-public-repo.js",
+  "bin": {
+    "create-public-repo": "./create-public-repo.js"
+  },
+  "scripts": {
+    "build": "tsc create-public-repo.ts && chmod +x create-public-repo.js",
+    "start": "npm run build && node create-public-repo.js"  
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^8.5.7",
+    "typescript": "^2.6.2",
+    "yargs": "^10.0.3"
+  }
+}
